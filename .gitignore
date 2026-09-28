@@ -1,5 +1,5 @@
 HELP.md
-target/
+TaskGoalManager/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -34,6 +34,7 @@ build/
 
 ### Ambiente ###
 .env
-application-local.properties
-application-local.yml
-*.log
+./TaskGoalManager/src/main/resources/application.properties
+./TaskGoalManager/src/main/resources/application-local.properties
+./TaskGoalManager/src/main/resources/application-local.yml
+./TaskGoalManager/src/main/resources/*.log
